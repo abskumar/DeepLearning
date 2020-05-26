@@ -6,3 +6,4 @@
 
 - ***parse_ss.ipynb:*** read PDB data and make a csv file containing the sequence, secondary structure, length. The output is saved in ss_data.csv
 - ***generate_ss_data.ipynb:*** Split ss_data.csv by length. Additionally, split longer sequences for any structure into smaller lengths (6,7,8,9,10)
+- ***ss_predict.ipynb:*** uses ss_data_length_8.csv to predict the secondary dtructure from sequences of length 8
