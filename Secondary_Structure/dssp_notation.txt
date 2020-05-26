@@ -1,0 +1,18 @@
+https://en.wikipedia.org/wiki/Protein_secondary_structure
+
+DSSP classification
+Main article: DSSP (protein)
+
+Distribution obtained from non-redundant pdb_select dataset (March 2006); Secondary structure assigned by DSSP; 8 conformational states reduced to 3 states: H=HGI, E=EB, C=STC. Visible are mixtures of (gaussian) distributions, resulting also from the reduction of DSSP states.
+The Dictionary of Protein Secondary Structure, in short DSSP, is commonly used to describe the protein secondary structure with single letter codes. The secondary structure is assigned based on hydrogen bonding patterns as those initially proposed by Pauling et al. in 1951 (before any protein structure had ever been experimentally determined). There are eight types of secondary structure that DSSP defines:
+
+	G = 3-turn helix (310 helix). Min length 3 residues.
+	H = 4-turn helix (α helix). Minimum length 4 residues.
+	I = 5-turn helix (π helix). Minimum length 5 residues.
+	T = hydrogen bonded turn (3, 4 or 5 turn)
+	E = extended strand in parallel and/or anti-parallel β-sheet conformation. Min length 2 residues.
+	B = residue in isolated β-bridge (single pair β-sheet hydrogen bond formation)
+	S = bend (the only non-hydrogen-bond based assignment).
+	C = coil (residues which are not in any of the above conformations).
+
+'Coil' is often codified as ' ' (space), C (coil) or '–' (dash). The helices (G, H and I) and sheet conformations are all required to have a reasonable length. This means that 2 adjacent residues in the primary structure must form the same hydrogen bonding pattern. If the helix or sheet hydrogen bonding pattern is too short they are designated as T or B, respectively. Other protein secondary structure assignment categories exist (sharp turns, Omega loops, etc.), but they are less frequently used.
